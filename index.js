@@ -14,7 +14,7 @@ let pessoa = {
         rua: prompt('Rua: '),
         cidade: prompt('Cidade: '),
     },
-    animalDeEstimacao: false,
+    animalDeEstimacao: prompt('Animal de estimação | Digite sim ou nao: ') == 'sim'? true:false ,
 }
 
 console.log(pessoa);
